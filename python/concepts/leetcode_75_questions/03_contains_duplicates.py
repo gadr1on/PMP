@@ -3,9 +3,7 @@
 
 # Pythonic solution
 def containsduplicate(nums):
-    if len(nums) > len(set(nums)):
-        return True
-    return False
+    return len(nums) > len(set(nums))
 
 # Youtube solution
 def containsduplicate(nums):
